@@ -22,13 +22,11 @@ article.first, article.second, article.third, article.forth {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 40px;
   margin-top: 50px;}
-article.third, article.forth {
+article.second, article.third, article.forth {
    padding: 20px 20px 20px 20px;}
 article.first {
   padding: 20px 20px 130px 20px;
   margin-bottom: 50px;}
-article.second {
-  padding: 20px 20px 85px 20px;}
 
 
 img.align1, img.align2, img.align3 {
