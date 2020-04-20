@@ -2,6 +2,8 @@ html {
      font-size: 16px;
      background-color: rgba(105, 164, 162, 0.6); 
      padding-top: 40px;}
+main {
+  margin: 60px; }
 
 h1 {
   font-size: 5.96em;
@@ -44,7 +46,7 @@ img.img1, img.img2, img.img3, img.img4, img.align1, img.align2, img.align3 {
   border-radius: 15%;
   max-width: 100%; }
 img.img1, img.img2, img.img3 {
-  margin-right: 26px;}
+  margin-right: 27px;}
 img.align4 {
   border-radius: 25px;
   display: block;
