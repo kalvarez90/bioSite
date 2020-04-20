@@ -30,10 +30,10 @@ article.first, article.second, article.third, article.forth {
 article.third, article.forth {
    padding: 20px 40px 20px 40px; }
 article.first {
-  padding: 20px 40px 130px 40px;
+  padding: 20px 40px 75px 40px;
   margin-bottom: 50px;}
 article.second {
-  padding: 20px 40px 85px 0px;}
+  padding: 20px 40px 25px 0px;}
 
 img.align1 {
   padding: 20px 20px 20p 20p; }
