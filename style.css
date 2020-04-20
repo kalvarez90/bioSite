@@ -1,6 +1,7 @@
 html {
      font-size: 16px;
      background-color: rgba(105, 164, 162, 0.6); }
+
 .content {
   max-width: 1080px;
   margin: auto;}
@@ -81,5 +82,4 @@ nav a {
   display: block;}
 nav a:hover {
   background-color: #ddd;
-  color: black;
-}
+  color: black; }
