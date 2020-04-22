@@ -64,8 +64,7 @@ img.align4 {
 
 img.img1, img.img2, img.img3, img.img4 {
   padding: 0px 3.92px;
-  width: 24%; }
-
+  width: 24.722%; }
 
 .footer {
   font-family: 'Quattrocento', Georgia, "Time New Roman", serif;
@@ -124,6 +123,9 @@ a.top:link {
   .responsive {
     width: 100%; }
 }
+
+* {
+  box-sizing: border-box; }
 
 main {
 overflow: hidden;}
