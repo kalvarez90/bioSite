@@ -38,9 +38,9 @@ div.desc {
   box-sizing: border-box; }
 
 .responsive {
-  padding: 3px 12px;
+  padding: 2px 12px;
   float: left;
-  width: 24.99999%;}
+  width: 20%;}
 
 @media only screen and (max-width: 700px) {
   .responsive {
@@ -53,7 +53,7 @@ div.desc {
     width: 100%; }
 }
 
-.clearfix:after {
+.responsive:after {
   content: "";
   display: table;
   clear: both; }
