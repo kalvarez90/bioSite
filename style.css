@@ -128,7 +128,7 @@ a.top:link {
 @media screen and (max-width: 800px) {
   .gal, .align1, .align2, .align3 {
     width: 49.99999%;
-    margin: 6px 0;}
+    margin: 6px 0;
   }
 }
 
