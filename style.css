@@ -124,6 +124,25 @@ a.top:link {
   border: none; 
 }
 
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav a {
+    float: none;
+    width: 100%;
+  }
+}
+
 main {
 overflow: hidden;
 }
