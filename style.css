@@ -3,6 +3,10 @@ html {
      background-color: rgba(105, 164, 162, 0.6); 
 }
 
+* {
+  box-sizing: border-box; 
+}
+
 .content {
   margin: 9% 9% 0% 9%;
 }
@@ -75,7 +79,6 @@ img.align4 {
   font-size: 1.25em;
 }
 
-
 nav {
   overflow: hidden;
   background-color: rgba(36, 48, 94, 0.2);
@@ -122,13 +125,13 @@ a.top:link {
 }
 
 @media screen and (max-width: 800px) {
-  .responsive  {
+  .gal, .align1, .align2, .align3 {
     width: 49.99999%;
     margin: 6px 0;}
 }
 
 @media screen and (max-width: 600px) {
-  .responsive {   
+  .gal, .align1, .align2, .align3 {   
     flex-direction: column;
     width: 100%;
   }
@@ -151,10 +154,6 @@ a.top:link {
     float: none;
     width: 100%;
   }
-}
-
-* {
-  box-sizing: border-box; 
 }
 
 main {
