@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -42,17 +42,13 @@ img.align1, img.align2, img.align3 {
   float:left;
   clear: left;
   margin-right: 20px;
-}
-
-img.align3 {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 img.gal, img.align1, img.align2, img.align3 {
   border-radius: 15%; 
   height: auto; 
-  padding: 0px 3.92px;
-  width: 24.722%;
+
 }
 
 img.align4 {
