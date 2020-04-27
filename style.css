@@ -12,9 +12,6 @@ body {
   box-sizing: border-box; 
 }
 
-
-
-/* Paragraphs and header */
 h1 {
   font-size: 5.96em;
   color: rgb(36, 48, 94);
@@ -35,17 +32,13 @@ p {
   text-indent: 60px;
 }
 
-
-*/ sections */
-section {
+article {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 40px;
   margin-top: 50px;
   padding: 20px 40px; 
 }
 
-
-*/ images */
 img.align1, img.align2, img.align3 {
   float:left;
   clear: left;
@@ -59,6 +52,7 @@ img.align3 {
 img.gal, img.align1, img.align2, img.align3 {
   border-radius: 15%; 
   height: auto; 
+
 }
 
 img.align4 {
@@ -69,9 +63,6 @@ img.align4 {
   width: 100%;
 }
 
-
-
-*/ four pictures of Marcelo */ 
 .column {
   float: left;
   padding: 3px;
@@ -87,8 +78,6 @@ img.align4 {
   display: table;
 }
 
-
-*/ Footer */
 .footer {
   font-family: 'Quattrocento', Georgia, "Time New Roman", serif;
   background-color: rgba(36, 48, 94, 0.9);
@@ -97,7 +86,6 @@ img.align4 {
   font-size: 1.25em;
 }
 
-*/ Navigation bar */
 nav {
   overflow: hidden;
   background-color: rgba(36, 48, 94, 0.2);
@@ -121,8 +109,6 @@ nav a:hover {
   color: black; 
 }
 
-
-*/ Back to top button*/
 .top {
   font-family: 'Quattrocento', Georgia, "Time New Roman", serif;
   font-size: 1.25em;
@@ -145,8 +131,6 @@ a.top:link {
   border: none; 
 }
 
-
-*/ Other devices screens */
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 50px;
@@ -155,7 +139,7 @@ a.top:link {
 
 @media screen and (min-width: 600px) {
   h1 {
-    font-size: 130px;
+    font-size: 150px;
   }
 }
 
