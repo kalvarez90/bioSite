@@ -32,7 +32,7 @@ p {
   text-indent: 60px;
 }
 
-article {
+section {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 40px;
   margin-top: 50px;
@@ -43,7 +43,11 @@ img.align1, img.align2, img.align3 {
   float:left;
   clear: left;
   margin-right: 20px;
-  margin-bottom: 20px;
+
+}
+
+img.align3 {
+  margin-top: 20px;
 }
 
 img.gal, img.align1, img.align2, img.align3 {
@@ -136,7 +140,7 @@ a.top:link {
 
 @media screen and (min-width: 600px) {
   h1 {
-    font-size: 150px;
+    font-size: 130px;
   }
 }
 
