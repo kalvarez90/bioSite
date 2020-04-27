@@ -12,6 +12,7 @@ body {
   box-sizing: border-box; 
 }
 
+*/ TEXT */
 h1 {
   font-size: 5.96em;
   color: rgb(36, 48, 94);
@@ -39,6 +40,8 @@ article {
   padding: 20px 40px; 
 }
 
+*/ IMAGES */
+
 img.align1, img.align2, img.align3 {
   float:left;
   clear: left;
@@ -63,6 +66,8 @@ img.align4 {
   width: 100%;
 }
 
+*/ FOUR PICTURES UNDER BIOGRAPHY */
+
 .column {
   float: left;
   padding: 3px;
@@ -78,6 +83,7 @@ img.align4 {
   display: table;
 }
 
+*/ FOOTER */
 .footer {
   font-family: 'Quattrocento', Georgia, "Time New Roman", serif;
   background-color: rgba(36, 48, 94, 0.9);
@@ -86,6 +92,7 @@ img.align4 {
   font-size: 1.25em;
 }
 
+*/ NAVIGATION BAR */
 nav {
   overflow: hidden;
   background-color: rgba(36, 48, 94, 0.2);
@@ -109,6 +116,8 @@ nav a:hover {
   color: black; 
 }
 
+*/ BACK TO TOP BUTTON */
+
 .top {
   font-family: 'Quattrocento', Georgia, "Time New Roman", serif;
   font-size: 1.25em;
@@ -131,6 +140,7 @@ a.top:link {
   border: none; 
 }
 
+*/ DIFFERENT DEVICES CHANGES */
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 50px;
