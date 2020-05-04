@@ -144,7 +144,7 @@ a.top:link {
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 50px;
-    padding-top: 80px;
+    padding-top: 150px;
   }
 }
 
@@ -158,12 +158,7 @@ a.top:link {
   .nav a {
     float: none;
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .nav {
-  font-size: 20px;
+    font-size: 20px;
   }
 }
 
