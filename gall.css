@@ -1,9 +1,11 @@
 html {
-     background-color: rgba(105, 164, 162, 0.4); }
+     background-color: rgba(105, 164, 162, 0.6); }
 
 h2 {
   font-size: 4.768em;
-  text-align: center;}
+  text-align: center;
+  color: rgb(36, 48, 94);
+}
 
 div.gallery {
   border: 1px solid #777;
@@ -37,7 +39,7 @@ div.desc {
 /* NAVIGATION BAR */
 nav {
   overflow: hidden;
-  background-color: rgba(36, 48, 94, 0.2);
+  background-color: rgba(255, 255, 255, 0.3);
   top: 0;
   position: fixed;
   width: 100%;
@@ -46,7 +48,7 @@ nav {
 nav a {
   text-align: center;
   float: left;
-  color: rgba(255, 255, 255, 0.9);
+  color: black;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 23px;
@@ -54,8 +56,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #ddd;
-  color: black; 
+  background-color: #F5F5F5;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 700px) {
