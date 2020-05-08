@@ -118,10 +118,9 @@ nav a:hover {
 
 /* BACK TO TOP BUTTON */
 
-.top {
+p.backtop {
   font-family: 'Quattrocento', Georgia, "Time New Roman", serif;
-  font-size: 1.25em;
-  margin-top: 20px; 
+  font-size: 1.25em; 
 }
 
 a.top:hover {
@@ -130,14 +129,15 @@ a.top:hover {
 
 a.top:link {
   color: #21305E; 
-  text-decoration: none;}
-
-.top {
-  border-radius: 15em;
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
   padding: 15px;
+  border-radius: 15em;
+}
+
+p.backtop {
   text-align: center;
-  text-decoration: none; 
-  border: none; 
+  float: right;
 }
 
 /* DIFFERENT DEVICES CHANGES */
