@@ -46,9 +46,6 @@ img.align1, img.align2, img.align3 {
   float:left;
   clear: left;
   margin-right: 20px;
-}
-
-img.align3 {
   margin-top: 20px;
 }
 
@@ -109,6 +106,7 @@ nav a {
   text-decoration: none;
   font-size: 23px;
   display: block;
+  font-family: 'Quattrocento', Georgia, "Time New Roman", serif;
 }
 
 nav a:hover {
