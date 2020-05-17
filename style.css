@@ -34,7 +34,7 @@ p {
 }
 
 article {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgb(197, 221, 220);
   border-radius: 40px;
   margin-top: 50px;
   padding: 20px 40px; 
@@ -92,7 +92,7 @@ img.align4 {
 /* NAVIGATION BAR */
 nav {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgb(197, 221, 220);
   top: 0;
   position: fixed;
   width: 100%;
